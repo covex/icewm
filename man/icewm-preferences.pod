@@ -49,6 +49,7 @@ Splash image on startup (IceWM.jpg)
 
 Enable tracing for the given list of modules.
 Modules which are traceable include B<conf, font, icon, prog, systray>.
+Trace is in file like .xsession-errors.
 
 =item B<ClickToFocus>=1
 
@@ -1376,6 +1377,8 @@ Name of the input field font.
 =item B<LabelFontNameXft>="sans-serif:size=12"
 
 Name of the label font.
+
+You may test the font to be used by fontconfigs fc-match "sans-serif:size=12"
 
 =back
 
